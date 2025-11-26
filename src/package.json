@@ -1,0 +1,21 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc && npm-run-all build-*",
+    "build-addTask": "cd addTask && npm run build",
+    "build-deleteTask": "cd deleteTask && npm run build",
+    "build-listTasks": "cd listTasks && npm run build",
+    "package": "npm-run-all pk-*",
+    "pk-addTask": "cd addTask && npm run package",
+    "pk-deleteTask": "cd deleteTask && npm run package",
+    "pk-listTasks": "cd listTasks && npm run package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

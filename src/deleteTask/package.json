@@ -1,0 +1,15 @@
+{
+  "name": "deletetask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm install",
+    "build": "tsc",
+    "package": "npm prune --production && cp -R node_modules dist/node_modules/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
