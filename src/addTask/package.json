@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "npm install",
     "build": "tsc",
-    "package": "npm prune --production && cp -R node_modules lib/node_modules/"
+    "package": "npm prune --production && cp -R node_modules dist/node_modules/"
   },
   "author": "",
   "license": "ISC",
