@@ -7,10 +7,12 @@
     "build-addTask": "cd addTask && npm run build",
     "build-deleteTask": "cd deleteTask && npm run build",
     "build-listTasks": "cd listTasks && npm run build",
+    "build-ui": "cd ui && npm run build",
     "package": "npm-run-all pk-*",
     "pk-addTask": "cd addTask && npm run package",
     "pk-deleteTask": "cd deleteTask && npm run package",
-    "pk-listTasks": "cd listTasks && npm run package"
+    "pk-listTasks": "cd listTasks && npm run package",
+    "pk-ui": "cd ui && npm run package"
   },
   "keywords": [],
   "author": "",
