@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc && npm-run-all build-*",
+    "build": "npm-run-all build-*",
     "build-addTask": "cd addTask && npm run build",
     "build-deleteTask": "cd deleteTask && npm run build",
     "build-listTasks": "cd listTasks && npm run build",

@@ -5,12 +5,13 @@
     "aws-demo": "bin/aws-demo.js"
   },
   "scripts": {
-    "build": "tsc && npm run build-src",
+    "build": "npm run build-src && tsc",
     "build-src": "cd src && npm ci && npm run build",
     "clean": "tsc --build --clean",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "npm run build && cdk deploy"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.159",
